@@ -1,5 +1,5 @@
-Feature: abort_if
-  abort_if asserts not null
+Feature: abort_if()
+  The global abort_if helper is supported
 
   Background:
     Given I have the following config
@@ -19,6 +19,21 @@ Feature: abort_if
       """
       <?php declare(strict_types=1);
       """
+
+  Scenario: abort asserts not null
+    Given I have the following code
+    """
+      /**
+      * @param string|null $nullable
+      */
+      function test($nullable): string {
+        if (!$nullable) {
+            abort(422);
+        }
+
+        return $nullable;
+      }
+    """
 
   Scenario: abort_if asserts not null
     Given I have the following code

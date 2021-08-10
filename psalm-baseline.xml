@@ -1,58 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="dev-master@73f7ad9dd36bc2cb1d1f8296085f9695c1f2daca">
-  <file src="src/AppInterfaceProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>AppInterfaceProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/PropertyProvider/ModelPropertyProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>ModelPropertyProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/AppReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>AppReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/AuthReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>AuthReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/ModelReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>ModelReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/PathHelpersReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>PathHelpersReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/RedirectReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>RedirectReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/RelationReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>RelationReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/TransReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>TransReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/UrlReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>UrlReturnTypeProvider</code>
-    </DeprecatedInterface>
-  </file>
-  <file src="src/ReturnTypeProvider/ViewReturnTypeProvider.php">
-    <DeprecatedInterface occurrences="1">
-      <code>ViewReturnTypeProvider</code>
-    </DeprecatedInterface>
+<files psalm-version="dev-master@b07de1fefde4714f29bca0b56c632bd82855fc64">
+  <file src="src/Providers/ModelStubProvider.php">
+    <PossiblyUndefinedMethod occurrences="1">
+      <code>databasePath</code>
+    </PossiblyUndefinedMethod>
   </file>
 </files>
