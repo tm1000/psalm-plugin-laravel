@@ -37,7 +37,7 @@ class FakeModelsCommand extends ModelsCommand
      *
      * @param Model $model
      */
-    protected function getPropertiesFromTable($model) : void
+    public function getPropertiesFromTable($model) : void
     {
         $table_name = $model->getTable();
 
